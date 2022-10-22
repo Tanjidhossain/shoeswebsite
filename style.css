@@ -1,0 +1,555 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+font-family: 'Molle', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.fullfilwidth{
+background-color: #F5F6F1;
+
+
+
+}
+
+
+.headerpart{
+     display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+     
+}
+
+.leftheader{
+    padding: 20px 0px;   
+}
+.leftheader i{}
+.leftheader span{
+    padding-left: 10px;
+}
+
+
+.rightheader{
+ 
+
+}
+
+.nav{
+    
+
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav li {
+    padding-left: 20px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+
+}
+.nav a:hover{
+   
+    color: green;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(78, 190, 102);
+    transition: .5s ease-in-out all;
+
+}
+
+
+
+
+
+
+
+/* navigation styling */
+
+.navigation {   display: flex;
+    justify-content: space-between;
+
+}
+
+.logopart{ 
+    display: flex;
+
+}
+
+.logoinfo{ 
+    
+} 
+.logoinfo h1{ 
+    font-weight: bold;
+    font-size: 40px;
+
+} 
+.logoinfo p{ 
+    font-size: 10px;
+    margin-top: -23px;
+    letter-spacing: 2px;
+
+} 
+
+.logoimage{
+
+    position: relative;
+    top: 31px;
+    left: -1px;
+
+ }
+.logoimage img{ 
+  width: 40px;
+  height: 50px;
+  transform: rotate(5deg);
+  
+
+}
+
+.navsection{
+    
+
+    
+}
+.navsection ul{
+    list-style: none;
+    display: flex;
+    padding: 30px 0px;
+
+}
+.navsection li{
+
+
+}
+.navsection a{
+    text-decoration: none;
+    padding: 0px 10px;
+    font-weight: 600;
+    color: black;
+}
+.navsection a:hover{
+    color: rgb(206, 41, 41);
+    
+}
+.navsection .slash { 
+    padding: 0px 10px;
+
+}
+
+
+.rightsidenavigation{
+
+    display: flex;
+     margin: 25px 0px 0px 0px;
+   
+
+
+}
+
+.rightsidenavigation-infopart{
+   
+   
+
+}
+.rightsidenavigation-infopart p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.rightsidenavigation-infopart h1{
+   font-size: 16px;
+   margin-top: -10px;
+
+}
+
+.boxicon{
+    position: relative;
+    top: -10px;
+
+
+}
+.boxicon img{
+    width: 60px;
+    height: 90px;
+ 
+}
+
+
+
+/* herosection styling */
+
+
+.herosection{
+    background-image: url("images/7.jpg");
+    
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+    
+
+}
+
+
+.slogan{
+    position: absolute;
+    top: 290px;  
+}
+
+.slogan ul{
+      list-style-type : none
+
+}
+.slogan ul li{
+    color: white;
+    font-size: 50px;
+    padding: 14px;
+    font-weight: 500;
+    
+
+
+ } 
+
+
+
+
+.herosection .Sticker{ 
+    display: flex;
+    background-color: rgba(209, 230, 211, 0.452);
+    position: absolute;
+    left: 737px;
+    top: 400px;
+    color: white;
+    height: 200px;
+    
+
+}
+
+.Stickerinfo{ 
+    padding: 0px 30px;
+    
+    
+} 
+.Stickerinfo h1{ 
+    font-weight: bold;
+    font-size: 70px;
+
+} 
+.Stickerinfo p{ 
+    font-size: 30px;
+    margin-top: -53px;
+    letter-spacing: 2px;
+
+} 
+
+.Stickerimage{
+
+    position: relative;
+    top: 61px;
+    left: -31px;
+    
+
+ }
+.Stickerimage img{ 
+  width: 70px;
+  height: 110px;
+  transform: rotate(-1deg);
+  
+
+}
+
+
+/* offers styling */
+
+.offers{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 40px;
+  
+
+}
+
+.offer {
+ 
+    width:500px;
+    margin: 0px  15px;
+    background-color: #F5F6F1;
+    padding: 20px 0px 2px 0px;
+    
+    
+}
+.offer h2{
+    text-align: center;
+
+}
+.offer p{
+    text-align: center;
+    font-size: 15px;
+
+}
+.offer span{
+    color: red;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+/* cartsection styling */
+
+.cartsection{
+    padding: 40px 0px; 
+ 
+}
+.linesandtitle{
+    display: flex;
+    justify-content: space-around;
+    
+   
+
+
+}
+
+.linesandtitle .left{
+    width: 300px;
+    border-top: 4px solid rgb(34, 34, 34);
+
+}
+.linesandtitle .left1{
+    width: 300px;
+    position: relative;
+    top: 4px;
+    border-bottom: 1px solid gray;
+
+}
+
+.linesandtitle .center{
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+    padding: 0px 10px;
+}
+
+.linesandtitle .right{
+    width: 300px;
+    border-top: 4px solid rgb(34, 34, 34);
+}
+.linesandtitle .right1{
+     width: 300px;
+    position: relative;
+    top: 4px;
+    border-bottom: 1px solid gray;
+
+}
+
+.carts{
+    display: flex;
+    justify-content: space-between;
+    
+ 
+
+}
+
+
+.cart{
+    width: 300px;
+    
+
+}
+
+.cart img{
+    width: 300px;
+    height: 240px;
+
+}
+
+.cart h3{
+
+}
+
+.cart p{ 
+
+}
+
+.cart .red-paragraph{
+    
+}
+
+.cart .red-paragraph a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+
+}
+
+
+/* carts section number 2 styling */
+
+.cartsecendpart{
+    margin: 0px 10px;
+    
+}
+.cartsecendpart img{
+    width: 250px;
+    height: 240px;
+    border-radius: 2px;
+    
+}
+.cartsecendpart P{
+    margin-top: 5px;
+
+}
+.cartsecendpart h2{
+
+}
+.cartsecendpart button{
+
+   width: 250px;
+    padding: 8px;
+    color: white;
+    cursor: pointer; 
+    border: none;
+    background-color: chocolate;
+    border-radius: 2px;
+
+  
+}
+
+.cartsecendpart button:hover{
+    background-color:rgb(245, 153, 87) ;
+}
+
+
+/* lastcart styling */
+
+.readmore a{ 
+    color: red;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.lastcart {
+  margin: 0px 3px;
+
+}
+.lastcart img{
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  
+}
+.lastcart h3 a:hover{
+    color: white;
+    background-color: red;
+    padding: 4px 10px;
+    transition: .40s ease-in-out;
+   
+
+}
+/* dailogue style  */
+
+.dialogue{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.dialogue h3{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+/* action style */
+.fullfilwidthaction{
+    background-color: aqua;
+}
+
+.navactionsection{
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.slash1{
+    color: red;
+}
+
+.smallpart {
+  
+ 
+   position: relative;
+   bottom: 40px;
+   font-size: 15px;
+   left: 30px;
+}
+
+
+/* footer styling */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+   
+   
+    
+
+}
+.footericon{
+padding-left: 30px;
+
+
+}
+
+.footericon i{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: gray;
+
+}
+
+.footerautor{
+            padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.footerautor small{
+
+
+
+
+}
+
+.footerautor small span{
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+
+
+}
+
